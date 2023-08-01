@@ -4,8 +4,6 @@ import gr.aueb.cf.exceptions.InsufficientBalanceException;
 import gr.aueb.cf.exceptions.NegativeAmountException;
 import gr.aueb.cf.exceptions.SsnNotValidException;
 
-import javax.accessibility.AccessibleValue;
-
 public class Account extends IdentifiableEntity {
     private User holder;
     private String iban;
